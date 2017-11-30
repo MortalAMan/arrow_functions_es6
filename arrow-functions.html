@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Arrow functions → → </title>
+</head>
+<body>
+<script>
+
+  const names = ['wes', 'kait', 'lux'];
+
+  const fullNames = names.map(function(name) {
+    return `${name} bos`;
+  });
+    console.log(fullNames);
+
+  const fullNames2 = names.map((name) =>  {
+    return `${name} bos`;
+  });
+    console.log(fullNames2);
+
+</script>
+</body>
+</html>
